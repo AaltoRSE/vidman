@@ -32,7 +32,7 @@ to compile. Other packages required are `libjpeg-dev` and
 `libdc1394-22-dev`. On Ubuntu, requirements can be installed with:
 
 ```
-sudo apt install qtbase5-dev libopencv-dev libjpeg-dev libdc1394-dev
+sudo apt install qtbase5-dev libopencv-dev libjpeg-dev libdc1394-22-dev
 ```
 
 To compile you can either open the project in Qt creator and proceed from there
