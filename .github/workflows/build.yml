@@ -10,7 +10,7 @@ jobs:
     - name: Set up apt
       run: sudo apt-get update
     - name: Install apt dependencies
-      run: sudo DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y build-essential cmake qtbase5-dev libopencv-dev libjpeg-dev libdc1394-dev libopencv-dev qt5-qmake qtbase5-dev qtbase5-dev-tools
+      run: sudo DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y build-essential cmake qtbase5-dev libopencv-dev libjpeg-dev libdc1394-22-dev libopencv-dev qt5-qmake qtbase5-dev qtbase5-dev-tools
     - name: Run qmake and make
       run: |
         qmake -makefile
